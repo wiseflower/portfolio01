@@ -35,9 +35,9 @@
                                 <div class="card-layer"></div>
                                 <div class="card-content">
                                     <p class="card-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.  </p>
-                                    <div class="imgBx">
+                                    <!-- <div class="imgBx">
                                         <img src="" alt="">
-                                    </div>
+                                    </div> -->
                                     <div class="card-details">
                                         <h2>Some Famous <br> <span>Website Designer</span></h2>
                                     </div>
@@ -49,9 +49,9 @@
                                 <div class="card-layer"></div>
                                 <div class="card-content">
                                     <p class="card-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.  </p>
-                                    <div class="imgBx">
+                                    <!-- <div class="imgBx">
                                         <img src="" alt="">
-                                    </div>
+                                    </div> -->
                                     <div class="card-details">
                                         <h2>Some Famous <br> <span>Website Designer</span></h2>
                                     </div>
@@ -63,9 +63,9 @@
                                 <div class="card-layer"></div>
                                 <div class="card-content">
                                     <p class="card-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.  </p>
-                                    <div class="imgBx">
+                                    <!-- <div class="imgBx">
                                         <img src="" alt="">
-                                    </div>
+                                    </div> -->
                                     <div class="card-details">
                                         <h2>Some Famous <br> <span>Website Designer</span></h2>
                                     </div>
@@ -77,9 +77,9 @@
                                 <div class="card-layer"></div>
                                 <div class="card-content">
                                     <p class="card-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.  </p>
-                                    <div class="imgBx">
+                                    <!-- <div class="imgBx">
                                         <img src="" alt="">
-                                    </div>
+                                    </div> -->
                                     <div class="card-details">
                                         <h2>Some Famous <br> <span>Website Designer</span></h2>
                                     </div>
@@ -88,14 +88,18 @@
                         </div>
                         
                     </div>
+
+                    <!-- Add pagination -->
+                    
                 </div>
+                <div class="swiper-pagination"></div>
             </div>         
 
             <!-- Layout -->
-            <div class="content">              
+            <!-- <div class="content">              
                 <h2>Section One Title</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eveniet accusamus nihil nostrum debitis eum cupiditate. Exercitationem est quaerat blanditiis ad molestiae nam, officia ipsam quod explicabo iusto, quasi pariatur?</p>
-            </div>
+            </div> -->
         </section>
         <section>
             <div class="content">
@@ -155,8 +159,14 @@
                 depth: 0,
                 modifier: 1,
                 slideShadows: true,
-            }
+            },
+            spaceBetween: 30,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
         });
-        </script>
+        
+    </script>
 </body>
 </html> 
