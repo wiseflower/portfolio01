@@ -4,6 +4,11 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    cursor : none;
+}
+
+body {
+    overflow: hidden;
 }
 
 :root {
@@ -262,10 +267,11 @@ h2.menu_title{
 }
 
 .testimonials .card .card-content .card-p {
-    font-size: 18px;
+    font-size: 0.8rem;
     line-height: 24px;
-    margin-bottom: 20px;
-    color: #4a4940;
+    margin-bottom: 0.8rem;
+    font-weight: 200;
+    color: #cccab5;
 }
 
 .testimonials .card .card-content .imgBx{
@@ -279,11 +285,12 @@ h2.menu_title{
 }
 
 .testimonials .card .card-content h2{
-    font-size: 18px;
-    color: #cccab5;
+    font-size: 1.2rem;
+    color: #4a4940;
     font-weight: 300;
     transition: all 0.25s;
 }
+
 .testimonials .card:hover .card-content h2{
     color: #969584;
 }

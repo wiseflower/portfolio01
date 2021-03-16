@@ -5,10 +5,3 @@ document.querySelector('.toggle').onclick = function(){
     navCurtain.classList.toggle('active');
 }
 
-var swiper = new Swiper('.swiper-container', {
-    spaceBetween: 30,
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-});
