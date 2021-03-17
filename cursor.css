@@ -11,7 +11,7 @@
     mix-blend-mode: difference;
     animation: borderAnim 4s linear infinite;
     animation-name: none;
-    z-index: 10;
+    z-index: 100000;
 }
 
 
